@@ -1,6 +1,7 @@
 $(document).ready(function () {
 
 
+
 	$('.top-slider').slick({
 		arrow: false,
 		dots: false,
@@ -10,6 +11,14 @@ $(document).ready(function () {
 		slidesToShow: 1,
 		adaptiveHeight: true,
 
+	});
+	$('.banner-slider').slick({
+		arrow: true,
+		dots: true,
+		infinite: true,
+		speed: 300,
+		slidesToShow: 1,
+		adaptiveHeight: true,
 	});
 
 	$(function () {
